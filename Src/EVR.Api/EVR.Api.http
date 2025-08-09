@@ -1,0 +1,6 @@
+@EVR.Api_HostAddress = http://localhost:5234
+
+GET {{EVR.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
