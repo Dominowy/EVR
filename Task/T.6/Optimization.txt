@@ -1,0 +1,17 @@
+Lazy Loading vs Eager Loading:
+Lazy loading powoduje wiele zapytań (n+1 problem). Eager loading (Include) pozwala pobrać wszystkie potrzebne dane w jednym zapytaniu.
+
+Projekcje (Select):
+Pobieraj tylko potrzebne kolumny, a nie całe encje, aby zmniejszyć rozmiar danych.
+
+Batching:
+Grupowanie wielu operacji w jedno zapytanie lub mniejszą liczbę zapytań.
+
+Caching:
+Buforowanie wyników zapytań, które często się powtarzają.
+
+Indeksy w bazie:
+Zapewnienie odpowiednich indeksów na kolumnach używanych w WHERE, JOIN.
+
+Materializacja danych:
+Unikanie wielokrotnego wykonywania tych samych zapytań przez przechowywanie wyników w pamięci tymczasowej.
